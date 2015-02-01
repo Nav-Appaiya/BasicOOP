@@ -1,0 +1,12 @@
+{
+    "name": "Nav/sendgrid-php",
+    "require": {
+        "sendgrid/sendgrid": "~2.2"
+    },
+    "authors": [
+        {
+            "name": "Nav Appaiya",
+            "email": "navarajh@gmail.com"
+        }
+    ]
+}
