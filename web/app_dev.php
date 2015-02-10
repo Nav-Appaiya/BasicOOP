@@ -10,8 +10,8 @@ $aarde = 400;
 $modder = $water * $aarde * $wind;
 echo $modder; //12000000
 
-
-
-
-$modder2 = $vuur*$modder + ( $vuur % $water );
-echo $modder2; //2400000000 => Very nice results with xDebug on. #veryUsefull
+$modder2 = $vuur * $modder + ($vuur % $water);
+echo $modder2;
+/*
+$modder2 => 2400000000 => Very nice results with xDebug on. Tried some
+things out, setup is difficult but it's worth the effort. #niceOne
